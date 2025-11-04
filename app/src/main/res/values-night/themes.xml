@@ -1,0 +1,94 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VMCameraTests" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+<!--        <item name="android:windowLightStatusBar">false</item>-->
+<!--        <item name="android:windowLightNavigationBar">false</item>-->
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+
+    </style>
+
+    <!--    <style name="CameraModeText">-->
+    <!--        <item name="android:textColor">@android:color/white</item>-->
+    <!--        <item name="android:textSize">16sp</item>-->
+    <!--        <item name="android:paddingHorizontal">12dp</item>-->
+    <!--        <item name="android:textStyle">bold</item>-->
+    <!--        <item name="android:fontFamily">sans-serif-medium</item>-->
+    <!--        <item name="android:background">@android:color/transparent</item>-->
+    <!--    </style>-->
+
+    <style name="CameraModeText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!--    <style name="CameraModeTextSelected" parent="CameraModeText">-->
+    <!--        <item name="android:textColor">#ADD8E6</item>-->
+    <!--    </style>-->
+
+    <style name="CameraModeTextSelected" parent="CameraModeText">
+        <item name="android:textColor">@color/highlight_blue</item>
+    </style>
+
+    <!--    <style name="TopOptionButton">-->
+    <!--        <item name="android:layout_width">wrap_content</item>-->
+    <!--        <item name="android:layout_height">wrap_content</item>-->
+    <!--        <item name="android:padding">2dp</item>-->
+    <!--        <item name="android:layout_marginStart">12dp</item>-->
+    <!--        <item name="android:layout_marginEnd">12dp</item>-->
+    <!--        <item name="android:tint">#FFFFFF</item>-->
+    <!--        <item name="android:background">@android:color/transparent</item>-->
+    <!--    </style>-->
+
+
+    <style name="TopOptionButton">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:tint">@android:color/white</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginHorizontal">8dp</item>
+    </style>
+
+    <style name="TopOptionSubButton" parent="TopOptionButton">
+        <item name="android:tint">#DDDDDD</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+    <style name="ExtendedOptionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:tint">#FFFFFF</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="FilterOptionText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+</resources>

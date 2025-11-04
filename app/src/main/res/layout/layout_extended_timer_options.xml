@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <ImageButton android:id="@+id/btn_timer_ten" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_clock_24" android:contentDescription="Timer 10 second"/>
+    <ImageButton android:id="@+id/btn_timer_five" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_timer_5_24" android:contentDescription="Timer 5 second"/>
+    <ImageButton android:id="@+id/btn_timer_off" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_timer_off_24" android:contentDescription="Timer OFF"/>
+
+
+</LinearLayout>

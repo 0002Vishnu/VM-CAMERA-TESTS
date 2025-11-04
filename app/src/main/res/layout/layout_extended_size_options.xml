@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageButton android:id="@+id/btn_size_64mp" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_4k_24" android:contentDescription="Size 64MP"/>
+    <ImageButton android:id="@+id/btn_size_3_4" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_crop_portrait_24" android:contentDescription="Size 3:4"/>
+    <ImageButton android:id="@+id/btn_size_9_16" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_crop_9_16_24" android:contentDescription="Size 9:16"/>
+    <ImageButton android:id="@+id/btn_size_1_1" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_crop_square_24" android:contentDescription="Size 1:1"/>
+    <ImageButton android:id="@+id/btn_size_full" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_fullscreen_24" android:contentDescription="Size Full"/>
+
+</LinearLayout>

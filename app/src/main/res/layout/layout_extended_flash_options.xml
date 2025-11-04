@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<HorizontalScrollView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:scrollbars="none">-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:paddingStart="16dp"-->
+<!--        android:paddingEnd="16dp">-->
+<!--        <TextView style="@style/ExtendedOptionText" android:text="AUTO" android:textColor="@android:color/holo_blue_light" android:background="#22FFFFFF"/>-->
+<!--        <TextView style="@style/ExtendedOptionText" android:text="ON"/>-->
+<!--        <TextView style="@style/ExtendedOptionText" android:text="OFF"/>-->
+<!--    </LinearLayout>-->
+<!--</HorizontalScrollView>-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <ImageButton android:id="@+id/btn_flash_auto" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_flash_auto_24" android:contentDescription="Flash Auto"/>
+    <ImageButton android:id="@+id/btn_flash_on" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_flash_on_24" android:contentDescription="Flash ON"/>
+    <ImageButton android:id="@+id/btn_flash_off" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_flash_off_24" android:contentDescription="Flash OFF"/>
+
+
+</LinearLayout>

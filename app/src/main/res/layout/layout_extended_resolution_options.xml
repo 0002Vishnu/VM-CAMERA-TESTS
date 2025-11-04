@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <ImageButton android:id="@+id/btn_resolution_2k" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_2k_24" android:contentDescription="Resolution 2K"/>
+    <ImageButton android:id="@+id/btn_resolution_fhd" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_full_hd_24" android:contentDescription="Flash Resolution FHD"/>
+    <ImageButton android:id="@+id/btn_resolution_hd" style="@style/ExtendedOptionButton" android:src="@drawable/rounded_hd_24" android:contentDescription="Flash Resolution HD"/>
+
+
+</LinearLayout>
